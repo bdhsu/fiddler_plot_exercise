@@ -1,3 +1,7 @@
+## Technology
+
+Built using [React](https://github.com/facebook/react) with [react-router](https://github.com/ReactTraining/react-router) for routing and [Victory](https://formidable.com/open-source/victory/docs/) for charting.
+
 ## Goals for this exercise  
 
 Design and implement an interface for plotting loan data. Allow the user to save plots in a dashboard.
@@ -10,7 +14,7 @@ About 6 hours.
 
 * If you used a plotting library, why did you choose it?
 
-I chose Victory (https://formidable.com/open-source/victory/docs/) as my charting library because it’s built natively in React (which makes sense since I’m building this in React), has a good declarative api, has good out of the box defaults so doesn’t require a ton of customization, responsive by nature, and pretty easy to use.
+I chose [Victory](https://formidable.com/open-source/victory/docs/) as my charting library because it’s built natively in React (which makes sense since I’m building this in React), has a good declarative api, has good out of the box defaults so doesn’t require a ton of customization, responsive by nature, and pretty easy to use.
 
 For this case there aren’t too many points to be plotted, so Victory being vector based and resolution independent is fine. In other cases with thousands of points, I would use a canvas based charting library that’s resolution dependent. If I wanted a solution that was far more customizable and powerful, I would use D3.
 

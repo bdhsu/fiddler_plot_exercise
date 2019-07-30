@@ -12,36 +12,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            savedPlots: [
-                {
-                    x: "annual_inc",
-                    y: "total_pymnt"
-                },
-                {
-                    x: "fico_range_low",
-                    y: "fico_range_high"
-                },
-                {
-                    x: "annual_inc",
-                    y: "loan_amnt"
-                },
-                {
-                    x: "annual_inc",
-                    y: "loan_amnt"
-                },
-                {
-                    x: "annual_inc",
-                    y: "total_pymnt"
-                },
-                {
-                    x: "fico_range_low",
-                    y: "fico_range_high"
-                },
-                {
-                    x: "avg_cur_bal",
-                    y: "tot_cur_bal"
-                },
-            ],
+            savedPlots: [],
         };
         this.updateSavedPlots = this.updateSavedPlots.bind(this);
     }

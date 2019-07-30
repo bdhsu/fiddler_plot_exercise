@@ -1,0 +1,101 @@
+
+/*===========
+  = DEFAULT =
+  ===========*/
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #d0021b;
+}
+
+.App {
+  margin: 1rem;
+  h1 {
+    color: #0e64d2;
+  }
+  h4 {
+    color: #263140;
+  }
+}
+
+/*=======
+  = NAV =
+  =======*/
+
+.nav {
+    display: flex;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav li {
+    margin-right: 15px;
+}
+
+/*========
+  = PLOT =
+  ========*/
+
+
+.plot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+.plot {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0 0 10px;
+}
+
+.scatterplot {
+    background-color: rgba(204, 204, 204, 0.6);
+    padding: 10px 0 0 10px;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .plot {
+        width: 50%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .plot {
+        width: 50%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .plot {
+        width: 33%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .plot {
+        width: 33%;
+    }
+}
